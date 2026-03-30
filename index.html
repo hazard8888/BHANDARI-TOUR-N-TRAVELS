@@ -801,7 +801,7 @@ function count(el,target,suf){
   const t=setInterval(()=>{n=Math.min(n+s,target);el.textContent=n+suf;if(n>=target)clearInterval(t);},22);
 }
 const so=new IntersectionObserver(entries=>{
-  entries.forEach(e=>{if(e.isIntersecting){count(document.getElementById('c1'),500,'+');count(document.getElementById('c2'),10,'+');so.disconnect();}});
+  entries.forEach(e=>{if(e.isIntersecting){count(document.getElementById('c1'),500,'+');count(document.getElementById('c2'),5,'+');so.disconnect();}});
 },{threshold:.5});
 const hs=document.querySelector('.hero-stats');
 if(hs)so.observe(hs);
