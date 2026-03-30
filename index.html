@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhandari Tour & Travels – Char Dham Yatra & Uttarakhand</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════ NAVBAR ══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-om">ॐ</span>
+      <div class="brand-text">
+        <span class="brand-main">Bhandari</span>
+        <span class="brand-sub">Tour & Travels</span>
+      </div>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#chardham">Char Dham</a></li>
+      <li><a href="#tracks">Popular Tracks</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Book Now</a></li>
+    </ul>
+    <button class="nav-cta" onclick="scrollToContact()">📞 Call Us</button>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-mountains">
+      <div class="mountain m1"></div>
+      <div class="mountain m2"></div>
+      <div class="mountain m3"></div>
+      <div class="mountain m4"></div>
+      <div class="snow s1"></div>
+      <div class="snow s2"></div>
+      <div class="snow s3"></div>
+    </div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🙏 &nbsp;देव भूमि उत्तराखंड&nbsp; 🙏</div>
+      <h1 class="hero-title">
+        <span class="title-line">Sacred Journeys</span>
+        <span class="title-line accent">to the Himalayas</span>
+      </h1>
+      <p class="hero-sub">Char Dham Yatra • Hill Stations • Pilgrimage Routes • Cab Services</p>
+      <div class="hero-buttons">
+        <a href="#chardham" class="btn-primary">Explore Char Dham</a>
+        <a href="#contact" class="btn-ghost">Book a Cab</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span>500+</span><small>Happy Pilgrims</small></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span>10+</span><small>Years Experience</small></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span>24/7</span><small>Support</small></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ MARQUEE ══════════════ -->
+  <div class="marquee-bar">
+    <div class="marquee-track">
+      <span>🕉️ Yamunotri</span>
+      <span>✦</span>
+      <span>🕉️ Gangotri</span>
+      <span>✦</span>
+      <span>🕉️ Kedarnath</span>
+      <span>✦</span>
+      <span>🕉️ Badrinath</span>
+      <span>✦</span>
+      <span>🚗 Swift Dzire Daily Service</span>
+      <span>✦</span>
+      <span>🏔️ Valley of Flowers</span>
+      <span>✦</span>
+      <span>🏔️ Auli</span>
+      <span>✦</span>
+      <span>🏔️ Chopta</span>
+      <span>✦</span>
+      <span>🕉️ Yamunotri</span>
+      <span>✦</span>
+      <span>🕉️ Gangotri</span>
+      <span>✦</span>
+      <span>🕉️ Kedarnath</span>
+      <span>✦</span>
+      <span>🕉️ Badrinath</span>
+      <span>✦</span>
+      <span>🚗 Swift Dzire Daily Service</span>
+      <span>✦</span>
+      <span>🏔️ Valley of Flowers</span>
+      <span>✦</span>
+      <span>🏔️ Auli</span>
+      <span>✦</span>
+      <span>🏔️ Chopta</span>
+      <span>✦</span>
+    </div>
+  </div>
+
+  <!-- ══════════════ CHAR DHAM ══════════════ -->
+  <section class="section chardham" id="chardham">
+    <div class="section-header">
+      <div class="section-tag">Sacred Pilgrimage</div>
+      <h2>Char Dham Yatra <span>Packages</span></h2>
+      <p>Embark on the divine journey to the four sacred shrines of Uttarakhand</p>
+    </div>
+    <div class="dham-grid">
+
+      <div class="dham-card" style="--accent:#f59e0b">
+        <div class="dham-icon">🌅</div>
+        <div class="dham-num">01</div>
+        <h3>Yamunotri</h3>
+        <p class="dham-alt">यमुनोत्री धाम</p>
+        <p>Source of the River Yamuna at 3,293 m. Surya Kund hot springs, Divya Shila rock – a divine opening to Char Dham.</p>
+        <ul class="dham-features">
+          <li><i class="fas fa-map-marker-alt"></i> Uttarkashi District</li>
+          <li><i class="fas fa-mountain"></i> 3,293 m altitude</li>
+          <li><i class="fas fa-calendar"></i> May – Nov</li>
+        </ul>
+        <a href="#contact" class="dham-btn">Book Package</a>
+      </div>
+
+      <div class="dham-card featured" style="--accent:#22c55e">
+        <div class="dham-badge">Most Popular</div>
+        <div class="dham-icon">🔱</div>
+        <div class="dham-num">02</div>
+        <h3>Kedarnath</h3>
+        <p class="dham-alt">केदारनाथ धाम</p>
+        <p>One of the 12 Jyotirlingas, nestled in the Garhwal Himalayas at 3,583 m with the majestic Mandakini River.</p>
+        <ul class="dham-features">
+          <li><i class="fas fa-map-marker-alt"></i> Rudraprayag District</li>
+          <li><i class="fas fa-mountain"></i> 3,583 m altitude</li>
+          <li><i class="fas fa-calendar"></i> May – Nov</li>
+        </ul>
+        <a href="#contact" class="dham-btn">Book Package</a>
+      </div>
+
+      <div class="dham-card" style="--accent:#60a5fa">
+        <div class="dham-icon">🌊</div>
+        <div class="dham-num">03</div>
+        <h3>Gangotri</h3>
+        <p class="dham-alt">गंगोत्री धाम</p>
+        <p>Origin of the holy Ganga River with the majestic Gangotri Glacier. The temple is dedicated to Goddess Ganga.</p>
+        <ul class="dham-features">
+          <li><i class="fas fa-map-marker-alt"></i> Uttarkashi District</li>
+          <li><i class="fas fa-mountain"></i> 3,100 m altitude</li>
+          <li><i class="fas fa-calendar"></i> May – Nov</li>
+        </ul>
+        <a href="#contact" class="dham-btn">Book Package</a>
+      </div>
+
+      <div class="dham-card" style="--accent:#a78bfa">
+        <div class="dham-icon">🪷</div>
+        <div class="dham-num">04</div>
+        <h3>Badrinath</h3>
+        <p class="dham-alt">बद्रीनाथ धाम</p>
+        <p>Abode of Lord Vishnu between Nar and Narayan peaks. One of the 108 Divya Desams and holiest of all four dhams.</p>
+        <ul class="dham-features">
+          <li><i class="fas fa-map-marker-alt"></i> Chamoli District</li>
+          <li><i class="fas fa-mountain"></i> 3,133 m altitude</li>
+          <li><i class="fas fa-calendar"></i> May – Nov</li>
+        </ul>
+        <a href="#contact" class="dham-btn">Book Package</a>
+      </div>
+
+    </div>
+    <div class="full-package">
+      <div class="fp-content">
+        <span class="fp-tag">🎯 Best Value</span>
+        <h3>Complete Char Dham Yatra Package</h3>
+        <p>All 4 Dhams · 12 Days · Accommodation · Meals · Cab · Guide</p>
+      </div>
+      <a href="#contact" class="fp-btn">Get Custom Quote →</a>
+    </div>
+  </section>
+
+  <!-- ══════════════ POPULAR TRACKS ══════════════ -->
+  <section class="section tracks" id="tracks">
+    <div class="section-header light">
+      <div class="section-tag">Explore Uttarakhand</div>
+      <h2>Popular <span>Tracks & Destinations</span></h2>
+      <p>Discover the breathtaking routes and hill stations of Dev Bhoomi</p>
+    </div>
+    <div class="tracks-grid">
+
+      <div class="track-card">
+        <div class="track-visual t1">
+          <div class="track-overlay-text">Auli</div>
+        </div>
+        <div class="track-info">
+          <h4>Auli Ski Resort</h4>
+          <p>Asia's finest ski slopes with panoramic Himalayan views. Perfect in winter and summer alike.</p>
+          <div class="track-meta">
+            <span><i class="fas fa-road"></i> Via Joshimath</span>
+            <span><i class="fas fa-clock"></i> ~9 hrs from Dehradun</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="track-card">
+        <div class="track-visual t2">
+          <div class="track-overlay-text">Valley of Flowers</div>
+        </div>
+        <div class="track-info">
+          <h4>Valley of Flowers</h4>
+          <p>UNESCO World Heritage Site bursting with alpine wildflowers during monsoon season.</p>
+          <div class="track-meta">
+            <span><i class="fas fa-road"></i> Via Govindghat</span>
+            <span><i class="fas fa-clock"></i> Jul – Sep</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="track-card">
+        <div class="track-visual t3">
+          <div class="track-overlay-text">Chopta</div>
+        </div>
+        <div class="track-info">
+          <h4>Chopta – Mini Switzerland</h4>
+          <p>Gateway to Tungnath & Chandrashila peak. Lush meadows with stunning snow-capped peaks.</p>
+          <div class="track-meta">
+            <span><i class="fas fa-road"></i> Rudraprayag</span>
+            <span><i class="fas fa-clock"></i> All year</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="track-card">
+        <div class="track-visual t4">
+          <div class="track-overlay-text">Rishikesh</div>
+        </div>
+        <div class="track-info">
+          <h4>Rishikesh – Yoga Capital</h4>
+          <p>World capital of yoga on the banks of Ganga. Gateway to Char Dham Yatra and adventure sports.</p>
+          <div class="track-meta">
+            <span><i class="fas fa-road"></i> NH58</span>
+            <span><i class="fas fa-clock"></i> All year</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="track-card">
+        <div class="track-visual t5">
+          <div class="track-overlay-text">Munsiyari</div>
+        </div>
+        <div class="track-info">
+          <h4>Munsiyari – Little Kashmir</h4>
+          <p>A hidden gem at 2,298 m with stunning views of Panchachuli peaks and dense pine forests.</p>
+          <div class="track-meta">
+            <span><i class="fas fa-road"></i> Pithoragarh</span>
+            <span><i class="fas fa-clock"></i> Mar – Jun</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="track-card">
+        <div class="track-visual t6">
+          <div class="track-overlay-text">Lansdowne</div>
+        </div>
+        <div class="track-info">
+          <h4>Lansdowne Hill Station</h4>
+          <p>A peaceful British-era cantonment town surrounded by oak and rhododendron forests.</p>
+          <div class="track-meta">
+            <span><i class="fas fa-road"></i> Pauri Garhwal</span>
+            <span><i class="fas fa-clock"></i> Oct – Mar</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════ DAILY SERVICES ══════════════ -->
+  <section class="section services" id="services">
+    <div class="section-header">
+      <div class="section-tag">Daily Cab Services</div>
+      <h2>Swift & Dzire <span>Taxi Services</span></h2>
+      <p>Comfortable, reliable and affordable daily cab service across Uttarakhand</p>
+    </div>
+
+    <div class="cab-showcase">
+      <div class="cab-visual">
+        <div class="car-body">
+          <div class="car-roof"></div>
+          <div class="car-main">
+            <div class="car-window front"></div>
+            <div class="car-window rear"></div>
+            <div class="car-door-line"></div>
+          </div>
+          <div class="car-wheels">
+            <div class="wheel w1"><div class="wheel-inner"></div></div>
+            <div class="wheel w2"><div class="wheel-inner"></div></div>
+          </div>
+          <div class="car-headlight front-light"></div>
+          <div class="car-headlight rear-light"></div>
+        </div>
+        <div class="road-line"></div>
+        <div class="cab-label">🚗 Swift Dzire · AC · Comfortable</div>
+      </div>
+
+      <div class="cab-routes">
+        <h3>Daily Route Services</h3>
+        <div class="route-list">
+          <div class="route-item">
+            <div class="route-dot"></div>
+            <div class="route-details">
+              <strong>Srinagar ↔ Dehradun</strong>
+              <span>Daily morning & evening departures</span>
+            </div>
+            <div class="route-price">Call for price</div>
+          </div>
+          <div class="route-item">
+            <div class="route-dot"></div>
+            <div class="route-details">
+              <strong>Pauri ↔ Rishikesh</strong>
+              <span>Morning departure, return evening</span>
+            </div>
+            <div class="route-price">Call for price</div>
+          </div>
+          <div class="route-item">
+            <div class="route-dot"></div>
+            <div class="route-details">
+              <strong>Kotdwara ↔ Dehradun</strong>
+              <span>Via Lansdowne route available</span>
+            </div>
+            <div class="route-price">Call for price</div>
+          </div>
+          <div class="route-item">
+            <div class="route-dot"></div>
+            <div class="route-details">
+              <strong>Char Dham Drop Service</strong>
+              <span>Haridwar / Rishikesh base pickup</span>
+            </div>
+            <div class="route-price">Call for price</div>
+          </div>
+          <div class="route-item">
+            <div class="route-dot"></div>
+            <div class="route-details">
+              <strong>Airport Transfers</strong>
+              <span>Jolly Grant Airport ↔ All Destinations</span>
+            </div>
+            <div class="route-price">Call for price</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-features">
+      <div class="sf-card">
+        <div class="sf-icon">❄️</div>
+        <h4>AC Comfortable</h4>
+        <p>Well-maintained Swift Dzire with full AC and comfortable seating for long journeys</p>
+      </div>
+      <div class="sf-card">
+        <div class="sf-icon">🛡️</div>
+        <h4>Safe & Insured</h4>
+        <p>Fully insured vehicles with experienced drivers who know every mountain road</p>
+      </div>
+      <div class="sf-card">
+        <div class="sf-icon">⏰</div>
+        <h4>24/7 Available</h4>
+        <p>Round the clock service including early morning temple darshan pickups</p>
+      </div>
+      <div class="sf-card">
+        <div class="sf-icon">💰</div>
+        <h4>Best Rates</h4>
+        <p>Transparent pricing with no hidden charges. Best rates for local and outstation trips</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ WHY US ══════════════ -->
+  <section class="why-us">
+    <div class="why-bg-text">TRUST</div>
+    <div class="why-content">
+      <div class="why-left">
+        <div class="section-tag">Why Choose Us</div>
+        <h2>Your Faith Is Our<br /><span>Responsibility</span></h2>
+        <p>With years of experience guiding pilgrims and travelers through the sacred lands of Uttarakhand, Bhandari Tour & Travels is your most trusted companion for every journey.</p>
+        <div class="why-points">
+          <div class="wp"><i class="fas fa-check-circle"></i> Local expertise & mountain knowledge</div>
+          <div class="wp"><i class="fas fa-check-circle"></i> Puja & prasad arrangements included</div>
+          <div class="wp"><i class="fas fa-check-circle"></i> Hotel & dharmshala bookings</div>
+          <div class="wp"><i class="fas fa-check-circle"></i> Helicopter booking assistance</div>
+          <div class="wp"><i class="fas fa-check-circle"></i> Senior citizen friendly packages</div>
+        </div>
+        <a href="#contact" class="btn-primary">Plan My Journey</a>
+      </div>
+      <div class="why-right">
+        <div class="testimonial-stack">
+          <div class="testimonial">
+            <div class="t-stars">★★★★★</div>
+            <p>"Bhandari ji made our Char Dham Yatra completely hassle-free. Every arrangement was perfect and the cab was very comfortable. Highly recommended!"</p>
+            <div class="t-author">
+              <div class="t-avatar">R</div>
+              <div>
+                <strong>Ramesh Sharma</strong>
+                <small>Delhi</small>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial t2">
+            <div class="t-stars">★★★★★</div>
+            <p>"Best cab service from Srinagar to Dehradun. The driver was professional, on time and took care of us like family. Will book again!"</p>
+            <div class="t-author">
+              <div class="t-avatar" style="background:#22c55e">P</div>
+              <div>
+                <strong>Priya Negi</strong>
+                <small>Pauri, Uttarakhand</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section class="section contact" id="contact">
+    <div class="section-header">
+      <div class="section-tag">Get In Touch</div>
+      <h2>Book Your <span>Journey Today</span></h2>
+      <p>Fill in your details and we'll get back to you within minutes</p>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Bhandari Tour & Travels</h3>
+        <p>Your trusted travel partner in Dev Bhoomi Uttarakhand</p>
+        <div class="ci-items">
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <strong>Call / WhatsApp</strong>
+              <a href="tel:+917017433493">+917351947566</a>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <strong>WhatsApp Booking</strong>
+              <a href="https://wa.me/7017433493" target="_blank">Chat with us</a>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Location</strong>
+              <span>Srinagar Garhwal, Uttarakhand</span>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Available</strong>
+              <span>24/7 – All Days</span>
+            </div>
+          </div>
+        </div>
+        <div class="dham-open-note">
+          <i class="fas fa-info-circle"></i>
+          Char Dham Yatra Season: May to November
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Service Required</label>
+          <select required>
+            <option value="">Select Service</option>
+            <option>Char Dham Yatra (Complete Package)</option>
+            <option>Kedarnath Package</option>
+            <option>Badrinath Package</option>
+            <option>Yamunotri Package</option>
+            <option>Gangotri Package</option>
+            <option>Daily Cab – Srinagar to Dehradun</option>
+            <option>Daily Cab – Pauri to Rishikesh</option>
+            <option>Airport Transfer</option>
+            <option>Custom Tour Package</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Travel Date</label>
+            <input type="date" required />
+          </div>
+          <div class="form-group">
+            <label>No. of Persons</label>
+            <input type="number" placeholder="1" min="1" max="50" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Special Requirements</label>
+          <textarea rows="3" placeholder="Any special needs, dietary requirements, senior citizens, etc."></textarea>
+        </div>
+        <button type="submit" class="form-submit">
+          <i class="fab fa-whatsapp"></i> Send Enquiry on WhatsApp
+        </button>
+        <p class="form-note">We'll respond within 15 minutes 🙏</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand-om large">ॐ</span>
+        <div>
+          <div class="footer-title">Bhandari Tour & Travels</div>
+          <div class="footer-tagline">Journey with Faith · Travel with Trust</div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="fl-col">
+          <h5>Char Dham</h5>
+          <a href="#contact">Yamunotri Package</a>
+          <a href="#contact">Gangotri Package</a>
+          <a href="#contact">Kedarnath Package</a>
+          <a href="#contact">Badrinath Package</a>
+          <a href="#contact">Complete Package</a>
+        </div>
+        <div class="fl-col">
+          <h5>Destinations</h5>
+          <a href="#tracks">Auli</a>
+          <a href="#tracks">Valley of Flowers</a>
+          <a href="#tracks">Chopta</a>
+          <a href="#tracks">Rishikesh</a>
+          <a href="#tracks">Munsiyari</a>
+        </div>
+        <div class="fl-col">
+          <h5>Cab Services</h5>
+          <a href="#services">Srinagar – Dehradun</a>
+          <a href="#services">Pauri – Rishikesh</a>
+          <a href="#services">Kotdwara – Dehradun</a>
+          <a href="#services">Airport Transfers</a>
+          <a href="#services">Custom Routes</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Bhandari Tour & Travels · Srinagar Garhwal, Uttarakhand · All Rights Reserved</p>
+      <p class="footer-deity">🙏 हर हर महादेव · जय बद्री विशाल 🙏</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/919999999999" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
