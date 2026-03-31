@@ -1439,3 +1439,19 @@ body {
   from { opacity: 0; transform: scale(0.9); }
   to { opacity: 1; transform: scale(1); }
 }
+.logo-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000; /* optional */
+}
+
+.nav-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps it clean inside circle */
+}
