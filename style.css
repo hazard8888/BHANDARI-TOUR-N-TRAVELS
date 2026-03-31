@@ -18,6 +18,9 @@
   --text-dark:    #1a2e22;
   --text-mid:     #3d5c48;
   --text-light:   #7a9e88;
+
+  --accent: var(--saffron); /* ✅ ADD THIS LINE */
+
   --radius:       16px;
   --radius-sm:    8px;
   --shadow:       0 8px 32px rgba(13,43,31,0.18);
